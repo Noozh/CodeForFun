@@ -1,0 +1,103 @@
+V "GNAT Lib v4.9"
+M P W=b
+P SS ZX
+
+RN
+RV NO_ENUMERATION_MAPS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV SPARK_05
+
+U dia_siguiente%b	dia_siguiente.adb	b67e1cc5 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.handling%s  a-chahan.adb	a-chahan.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.text_io.enumeration_aux%s  a-tienau.adb	a-tienau.ali
+W ada.text_io.enumeration_io%s
+W interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+W system.img_enum_new%s	s-imenne.adb		s-imenne.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.val_enum%s	s-valenu.adb		s-valenu.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-charac.ads		20070912115821 2d3ec45b
+D a-chahan.ads		20131010125231 1c00991d
+D a-except.ads		20140129161953 f86a4103
+D a-finali.ads		20111121113555 52ecdc1b
+D a-ioexce.ads		20140225151544 e4a01f64
+D a-stream.ads		20140122164720 1a984740
+D a-tags.ads		20111212115430 6c0509d0
+D a-textio.ads		20140129155348 386df5d4
+D a-tienau.ads		20090409150019 6a9c157b
+D a-tienio.ads		20090409150019 fc618ae6
+D a-tienio.adb		20140224170426 c9e6b5af
+D a-unccon.ads		20070406091342 f9eb8f06
+D dia_siguiente.adb	20170918072756 9213700c
+D interfac.ads		20140225151838 69adb1b9
+D i-cstrea.ads		20130412125801 8128536b
+D system.ads		20160213141829 90249111
+D s-crtl.ads		20140225151544 840e6817
+D s-exctab.ads		20140225151139 54135002
+D s-ficobl.ads		20120709130952 55a71d43
+D s-finmas.ads		20140225151139 814daec4
+D s-finroo.ads		20120426095924 4ff27390
+D s-imenne.ads		20140225151139 614c06c0
+D s-parame.ads		20140225151139 ab8cb46a
+D s-pooglo.ads		20110804083314 542f33d0
+D s-secsta.ads		20140225151139 86a2856d
+D s-soflin.ads		20140225151139 aa763b52
+D s-stache.ads		20140225151139 a37c21ec
+D s-stalib.ads		20140225151139 a891183f
+D s-stoele.ads		20140225151139 2dc34a04
+D s-stoele.adb		20140225151139 ed88f8fb
+D s-stopoo.ads		20131010103753 b16154c2
+D s-traent.ads		20140225151139 b5116092
+D s-unstyp.ads		20140225151139 510692af
+D s-valenu.ads		20090409150019 bb1a4295
+D s-wchcon.ads		20140225151139 1b7d22d2
+X 1 ada.ads
+16K9*Ada 19e8 14|1r6 1r19 4r30 5r29
+X 2 a-charac.ads
+16K13*Characters 18e19 14|1r23 5r33
+X 3 a-chahan.ads
+36K24*Handling 160e28 14|1w34 5r44
+71V13*To_Lower{string} 14|23s38 25s38 32s30 39s38 41s38
+X 9 a-textio.ads
+49K13*Text_IO 471e16 14|1w10 4r34
+242U14*Put 14|23s30 25s30 27s22 32s22 33s22 39s30 41s30 43s22 47s14
+X 11 a-tienio.ads
+46k21*Enumeration_IO 75e31 14|8r42
+52U14 Get 14|48s22[8]
+X 14 dia_siguiente.adb
+3U11*Dia_Siguiente 3b11 52l5 52t18
+4K17 T_IO=4:34 8r37 23r25 25r25 27r17 32r17 33r17 39r25 41r25 43r17 47r9
+5K17 ACH=5:44 23r34 25r34 32r26 39r34 41r34
+6E14 Tipo_Semana 6e83 7r13 8r57 10r32 15r34 20r46 23r47 25r47 25r65 30r44
+. 32r39 36r47 39r47 41r47 41r65
+6n30 Lunes{6E14} 12r28 39r65
+6n36 Martes{6E14}
+6n43 Miercoles{6E14}
+6n53 Jueves{6E14}
+6n60 Viernes{6E14}
+6n68 Sabado{6E14}
+6n75 Domingo{6E14} 17r28 23r65
+7e9 Dia{6E14} 48m26 49r27 50r25 51r28
+8K17 Semana_InOut[11|46] 48r9
+10V18 Es_Lunes{boolean} 10b18 10>28 13l13 13t21 22s20
+10e28 Dia{6E14} 12r24
+15V18 Es_Domingo{boolean} 15b18 15>30 18l13 18t23 38s20
+15e30 Dia{6E14} 17r24
+20U19 Escribir_Anterior 20b19 20>38 28l13 28t30 49s9
+20e38 Dia{6E14} 22r29 25r82
+30U19 Escribir_Actual 30b19 30>36 34l13 34t28 50s9
+30e36 Dia{6E14} 32r57
+36U19 Escribir_Siguiente 36b19 36>39 44l13 44t31 51s9
+36e39 Dia{6E14} 38r31 41r82
+

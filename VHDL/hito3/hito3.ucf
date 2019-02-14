@@ -1,0 +1,6 @@
+
+
+NET "Clk" LOC = B8;
+NET "LED" LOC = M11;
+NET "A" LOC = G12;
+NET "Reset" LOC = A7;

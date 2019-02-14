@@ -1,0 +1,19 @@
+Release 14.7 - netgen P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: netgen -intstyle ise -ar Structure -tm hito4 -w -dir
+netgen/synthesis -ofmt vhdl -sim hito4.ngc hito4_synthesis.vhd  
+
+Reading design 'hito4.ngc' ...
+Flattening design ...
+Processing design ... 
+  Preping design's networks ...
+  Preping design's macros ...
+Writing VHDL netlist 'C:\Xilinx\14.7\hito4\netgen\synthesis\hito4_synthesis.vhd'
+...
+INFO:NetListWriters:635 - The generated VHDL netlist contains Xilinx UNISIM
+   simulation primitives and has to be used with UNISIM library for correct
+   compilation and simulation. 
+Number of warnings: 0
+Number of info messages: 1
+Total memory usage is 152384 kilobytes

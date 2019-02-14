@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Mon Apr 23 13:05:30 2018
+# Process ID: 6900
+# Log file: C:/Xilinx/14.7/hito4/planAhead_run_1/planAhead.log
+# Journal file: C:/Xilinx/14.7/hito4/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Xilinx/14.7/hito4/pa.fromNetlist.tcl
+startgroup
+set_property package_pin A7 [get_ports BTN_A]
+endgroup
+startgroup
+set_property package_pin M4 [get_ports BTN_B]
+endgroup
+startgroup
+set_property package_pin C11 [get_ports BTN_C]
+endgroup
+startgroup
+set_property package_pin G12 [get_ports BTN_D]
+endgroup
+startgroup
+set_property package_pin B8 [get_ports clk]
+endgroup
+startgroup
+set_property package_pin M5 [get_ports LED]
+endgroup
+save_constraints
+startgroup
+set_property package_pin P4 [get_ports Reset]
+endgroup
+save_constraints

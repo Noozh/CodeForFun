@@ -1,0 +1,79 @@
+V "GNAT Lib v4.9"
+M P W=b
+P ZX
+
+RN
+RV NO_CALENDAR
+RV NO_DELAY
+RV NO_IO
+RV SPARK_05
+
+U fecha%b		fecha.adb		075316fd NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system.concat_5%s	s-conca5.adb		s-conca5.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-calend.ads		20120515092648 d86d6c8c
+D a-except.ads		20140129161953 f86a4103
+D a-finali.ads		20111121113555 52ecdc1b
+D a-ioexce.ads		20140225151544 e4a01f64
+D a-stream.ads		20140122164720 1a984740
+D a-tags.ads		20111212115430 6c0509d0
+D a-textio.ads		20140129155348 386df5d4
+D a-unccon.ads		20070406091342 f9eb8f06
+D fecha.adb		20170913182208 e7538fa5
+D interfac.ads		20140225151838 69adb1b9
+D i-cstrea.ads		20130412125801 8128536b
+D system.ads		20160213141829 90249111
+D s-conca5.ads		20140225151544 875e432e
+D s-crtl.ads		20140225151544 840e6817
+D s-exctab.ads		20140225151139 54135002
+D s-ficobl.ads		20120709130952 55a71d43
+D s-finmas.ads		20140225151139 814daec4
+D s-finroo.ads		20120426095924 4ff27390
+D s-imgint.ads		20090409150019 02dbe0c2
+D s-parame.ads		20140225151139 ab8cb46a
+D s-pooglo.ads		20110804083314 542f33d0
+D s-soflin.ads		20140225151139 aa763b52
+D s-stache.ads		20140225151139 a37c21ec
+D s-stalib.ads		20140225151139 a891183f
+D s-stoele.ads		20140225151139 2dc34a04
+D s-stoele.adb		20140225151139 ed88f8fb
+D s-stopoo.ads		20131010103753 b16154c2
+D s-traent.ads		20140225151139 b5116092
+D s-unstyp.ads		20140225151139 510692af
+D s-wchcon.ads		20140225151139 1b7d22d2
+X 1 ada.ads
+16K9*Ada 19e8 10|1r6 1r19 4r30 5r36
+X 2 a-calend.ads
+36K13*Calendar 375e17 10|1w23 5r40
+38I9*Time<200I9>
+44I12*Year_Number{integer} 10|7r30 22r82 22r128
+45I12*Month_Number{integer} 10|8r30
+46I12*Day_Number{integer} 10|9r30 22r37
+52V13*Clock{38I9} 10|15s53 16s54 17s52
+58V13*Year{44I12} 10|15s37
+59V13*Month{45I12} 10|16s37
+60V13*Day{46I12} 10|17s37
+200I9 Time_Rep<long_integer>
+X 8 a-textio.ads
+49K13*Text_IO 471e16 10|1w10 4r34
+242U14*Put 10|22s22 26s14 29s14
+X 10 fecha.adb
+3U11*Fecha 3b11 30l5 30t10
+4K17 T_IO=4:34 22r17 26r9 29r9
+5K17 Calendario=5:40 7r19 8r19 9r19 15r26 15r42 16r26 16r43 17r26 17r41 22r26
+. 22r71 22r117
+6R14 Tipo_Fecha 10e19 11r14 13r44 20r45
+7i17 Y{2|44I12} 15m23 22r152
+8i17 M{2|45I12} 16m23 22r106
+9i17 D{2|46I12} 17m23 22r60
+11r9 Date{6R14} 27m23 28r24
+13U19 Obtener_Fecha 13b19 13<33 18l13 18t26 27s9
+13r33 Fecha{6R14} 15m17 16m17 17m17
+20U19 Escribir_Fecha 20b19 20>35 23l13 23t27 28s9
+20r35 Fecha{6R14} 22r54 22r100 22r146
+

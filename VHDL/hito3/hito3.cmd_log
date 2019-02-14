@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "C:/Xilinx/14.7/hito3/hito3.xst" -ofn "C:/Xilinx/14.7/hito3/hito3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hito3.ucf -p xc3s100e-cp132-4 hito3.ngc hito3.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o hito3_map.ncd hito3.ngd hito3.pcf 
+par -w -intstyle ise -ol high -t 1 hito3_map.ncd hito3.ncd hito3.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml hito3.twx hito3.ncd -o hito3.twr hito3.pcf -ucf hito3.ucf 
+bitgen -intstyle ise -f hito3.ut hito3.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/14.7/hito3/hito3.xst" -ofn "C:/Xilinx/14.7/hito3/hito3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hito3.ucf -p xc3s100e-cp132-4 hito3.ngc hito3.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o hito3_map.ncd hito3.ngd hito3.pcf 
+par -w -intstyle ise -ol high -t 1 hito3_map.ncd hito3.ncd hito3.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml hito3.twx hito3.ncd -o hito3.twr hito3.pcf -ucf hito3.ucf 
+bitgen -intstyle ise -f hito3.ut hito3.ncd 

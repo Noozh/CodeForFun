@@ -1,0 +1,10 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "BTN_A" LOC = A7;
+NET "BTN_B" LOC = M4;
+NET "BTN_C" LOC = C11;
+NET "BTN_D" LOC = G12;
+NET "clk" LOC = B8;
+NET "LED" LOC = M5;
+NET "Reset" LOC = P11;

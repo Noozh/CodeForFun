@@ -1,0 +1,116 @@
+V "GNAT Lib v4.9"
+M P W=b
+P SS ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV SPARK_05
+
+U triplet_compare%b	Triplet_Compare.adb	99bdd4a9 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.val_int%s	s-valint.adb		s-valint.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-charac.ads		20070912115821 2d3ec45b
+D a-chlat1.ads		20140225151544 66457d31
+D a-except.ads		20140129161953 f86a4103
+D a-finali.ads		20111121113555 52ecdc1b
+D a-inteio.ads		20070406091342 f64b89a4
+D a-ioexce.ads		20140225151544 e4a01f64
+D a-stream.ads		20140122164720 1a984740
+D a-string.ads		20070406091342 90ac6797
+D a-strmap.ads		20090409150019 9cb836fb
+D a-strunb.ads		20120426100351 3f91d4c5
+D a-tags.ads		20111212115430 6c0509d0
+D a-textio.ads		20140129155348 386df5d4
+D a-tiinio.ads		20090409150019 aa04e5d6
+D a-unccon.ads		20070406091342 f9eb8f06
+D interfac.ads		20140225151838 69adb1b9
+D i-cstrea.ads		20130412125801 8128536b
+D system.ads		20160213141829 90249111
+D s-atocou.ads		20131010110730 cd7c94ca
+D s-atocou.adb		20131010121735 62bad392
+D s-crtl.ads		20140225151544 840e6817
+D s-exctab.ads		20140225151139 54135002
+D s-ficobl.ads		20120709130952 55a71d43
+D s-finmas.ads		20140225151139 814daec4
+D s-finroo.ads		20120426095924 4ff27390
+D s-parame.ads		20140225151139 ab8cb46a
+D s-pooglo.ads		20110804083314 542f33d0
+D s-secsta.ads		20140225151139 86a2856d
+D s-soflin.ads		20140225151139 aa763b52
+D s-stache.ads		20140225151139 a37c21ec
+D s-stalib.ads		20140225151139 a891183f
+D s-stoele.ads		20140225151139 2dc34a04
+D s-stoele.adb		20140225151139 ed88f8fb
+D s-stopoo.ads		20131010103753 b16154c2
+D s-stposu.ads		20121005142121 ffeba1c5
+D s-stratt.ads		20131014135145 aedef97e
+D s-traent.ads		20140225151139 b5116092
+D s-unstyp.ads		20140225151139 510692af
+D s-valint.ads		20090409150019 48a52a3f
+D s-wchcon.ads		20140225151139 1b7d22d2
+D Triplet_Compare.adb	20180226151141 680a7c1c
+X 1 ada.ads
+16K9*Ada 19e8 41|1r6 2r6 3r6 6r26 7r25 8r26
+X 6 a-inteio.ads
+18K13*Integer_Text_IO[14|45] 41|3w10 8r30
+X 9 a-string.ads
+16K13*Strings 35e16 41|2r10 7r29
+X 11 a-strunb.ads
+76K21*Unbounded 489e26 41|2w18 7r37
+79R9*Unbounded_String<5|48R9> 473e14 41|17r18
+84V13*Length{natural} 41|23s34 26s34
+94V13*To_Unbounded_String{79R9} 41|20s20
+100V13*To_String{string} 41|22s36 25s36 28s36
+230V13*Index{natural} 41|21s20 24s20 27s20
+396V13*Head{79R9} 41|22s50 25s50 28s50
+406V13*Tail{79R9} 41|23s20 26s20
+X 13 a-textio.ads
+49K13*Text_IO 471e16 41|1w10 6r30
+73I12*Field{integer}
+256V13*Get_Line{string} 41|20s45
+X 14 a-tiinio.ads
+65U14*Put 41|66s10[6|18] 67s10[6|18]
+67i7 Width{13|73I12} 41|66r53[6|18] 67r53[6|18]
+X 41 Triplet_Compare.adb
+5U11*Triplet_Compare 5b11 68l5 68t20
+6K13 T_IO=6:30 20r40
+7K13 ASU=7:37 17r14 20r16 21r16 22r32 22r46 23r16 23r30 24r16 25r32 25r46
+. 26r16 26r30 27r16 28r32 28r46
+8K13 I_IO=8:30 66r5 67r5
+10R10 Triplet 14e15 16r36 31r37 31r57 47r40 47r60 62r32
+11i9 x{natural} 22m14 34r21 34r36 50r21 50r36
+12i9 y{natural} 25m14 37r21 37r36 53r21 53r36
+13i9 z{natural} 28m14 40r21 40r36 56r21 56r36
+16U15 Read_Line 16b15 16<26 29l9 29t18 64s5 65s5
+16r26 Trip{10R10} 22m9 25m9 28m9
+17r9 Line{11|79R9} 20m9 21r26 22r55 23m9 23r25 23r41 24r26 25r55 26m9 26r25
+. 26r41 27r26 28r55
+18i9 Index{natural} 21m9 22r60 23r49 24m9 25r60 26r49 27m9 28r60
+31V14 Bob_Victory{natural} 31b14 31>27 31>45 44l9 44t20 66s14 67s14
+31r27 Bob_Trip{10R10} 34r12 37r12 40r12
+31r45 Alice_Trip{10R10} 34r25 37r25 40r25
+32i9 Points{natural} 35m13 35r22 38m13 38r22 41m13 41r22 43r16
+47V14 Allice_Victory{natural} 47b14 47>30 47>48 60l9 60t23
+47r30 Bob_Trip{10R10} 50r12 53r12 56r12
+47r48 Alice_Trip{10R10} 50r25 53r25 56r25
+48i9 Points{natural} 51m13 51r22 54m13 54r22 57m13 57r22 59r16
+62r5 Bob_Triplet{10R10} 64m15 66r26 67r26
+62r17 Alice_Triplet{10R10} 65m15 66r38 67r38
+
